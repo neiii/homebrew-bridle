@@ -5,21 +5,21 @@ class Bridle < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/neiii/bridle/releases/download/v0.2.7/bridle-aarch64-apple-darwin.tar.xz"
-      sha256 "e9370358ed8101ef2b4f6ab753dc01821208ed54f7cc4ee636eb21f860d85e66"
+      sha256 "497693195e56774bd90aaca102421f1d5d96b9455ebf849ceefe2c4b8bf37b3a"
     end
     if Hardware::CPU.intel?
       url "https://github.com/neiii/bridle/releases/download/v0.2.7/bridle-x86_64-apple-darwin.tar.xz"
-      sha256 "4dbbd80de724d4ae1888cce75bb63572215b95c800d0c01f501463c66ced19c4"
+      sha256 "76e6389b2b8b1679b5b0949e5f493d010218a0d90c2a4f87bfd3b2e5258d8b61"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/neiii/bridle/releases/download/v0.2.7/bridle-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "e444bc366451d12608059fa380b358bf5be8e9321eaee21590b45bd6509a438e"
+      sha256 "e35669456484a56bec36bfdb3ffb256440f25c1f3e1f26ce60e2f9b810e9e14a"
     end
     if Hardware::CPU.intel?
       url "https://github.com/neiii/bridle/releases/download/v0.2.7/bridle-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "c599f99c29e9b5dba328be8b14341dd6dd8dc14e48b896e3a4fb298e537675f7"
+      sha256 "fa91b7ea2c3bf1120b28b02b0a95d9b307cdcbfc676c6a3e63ba874cad22339d"
     end
   end
   license "MIT"
