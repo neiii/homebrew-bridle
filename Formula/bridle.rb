@@ -1,25 +1,25 @@
 class Bridle < Formula
   desc "Unified configuration manager for AI coding assistants (Claude Code, OpenCode, Goose, AMP Code)"
   homepage "https://github.com/neiii/bridle"
-  version "0.2.7"
+  version "0.2.8"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/neiii/bridle/releases/download/v0.2.7/bridle-aarch64-apple-darwin.tar.xz"
-      sha256 "497693195e56774bd90aaca102421f1d5d96b9455ebf849ceefe2c4b8bf37b3a"
+      url "https://github.com/neiii/bridle/releases/download/v0.2.8/bridle-aarch64-apple-darwin.tar.xz"
+      sha256 "af6c5b16a93fb5e44f09d36869f51b3ac007c7dfb182f09879b304209bfc90d9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/neiii/bridle/releases/download/v0.2.7/bridle-x86_64-apple-darwin.tar.xz"
-      sha256 "76e6389b2b8b1679b5b0949e5f493d010218a0d90c2a4f87bfd3b2e5258d8b61"
+      url "https://github.com/neiii/bridle/releases/download/v0.2.8/bridle-x86_64-apple-darwin.tar.xz"
+      sha256 "e00dbdd51f61530ed77224e62257417fc53ad1bdb8f81746fcbaf73866a35de8"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/neiii/bridle/releases/download/v0.2.7/bridle-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "e35669456484a56bec36bfdb3ffb256440f25c1f3e1f26ce60e2f9b810e9e14a"
+      url "https://github.com/neiii/bridle/releases/download/v0.2.8/bridle-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "2c6ab5434ecd69f80afdcac0628d941dfb72c265d767d3a3c098289ae2fd6d25"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/neiii/bridle/releases/download/v0.2.7/bridle-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "fa91b7ea2c3bf1120b28b02b0a95d9b307cdcbfc676c6a3e63ba874cad22339d"
+      url "https://github.com/neiii/bridle/releases/download/v0.2.8/bridle-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "aa0be55b65323a6c0bdc26bd51c065aeee7fa8de2399e6ace5d9f82a658ca64d"
     end
   end
   license "MIT"
